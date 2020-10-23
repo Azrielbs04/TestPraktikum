@@ -32,7 +32,8 @@ class BaseController extends Controller
 	 * Constructor.
 	 */
 	public function initController(\CodeIgniter\HTTP\RequestInterface $request, \CodeIgniter\HTTP\ResponseInterface $response, \Psr\Log\LoggerInterface $logger)
-	{
+	{	
+		$this->nma="Muhammad Azriel Bintang Saputra";
 		// Do Not Edit This Line
 		parent::initController($request, $response, $logger);
 
